@@ -1,0 +1,68 @@
+.buttonsContainer {
+position:relative;
+width:98%;
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+height:30px;
+}
+.buttonsContainer>button {
+margin-left: 30px;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+/*input[type="file"] {*/
+    /*display: none;*/
+/*}*/
+.containerDiv {
+margin-top:50px;
+}
+
+.centerDiv {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.table > thead > tr > th {
+    color:white;
+}
+.table > thead > tr > th:hover {
+    cursor:pointer;
+}
+.email      {
+font: bold 20px blue;
+color:blue;
+}
+
+.user {
+font: bold 16px orange;
+color: #eea157;
+}
+
+
+.headerView {
+background: #eeb057;
+}
+
+.page-item:hover {
+cursor:pointer;
+}
+
+.modalButtons {
+margin-top: 5px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
